@@ -1,0 +1,62 @@
+/* Import the font families */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+:root {
+  background-color: rgb(44, 45, 46);
+}
+
+.pokemon-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #979797;
+  border: 5px black;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.pkmn-card {
+  padding-left: 20px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pkmn-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pkmn-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.pkmn-card p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.dex-number {
+    justify-content: left;
+    align-items:first baseline;
+}
+
+.pkmn-card p:first-of-type {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
